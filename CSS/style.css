@@ -1,0 +1,176 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+}
+
+
+/***** HEADER *****/
+
+header{
+    margin-bottom: 15px;
+}
+
+h1{
+    background-color: #c80000;
+    color: white;
+    padding: 1%;
+    font-size: 2em;
+}
+
+#figurines{
+    font-size: 0.8rem;
+}
+
+header h2{
+    background-color: #666;
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    font-size: 1.1em;
+    padding: 0.9%;
+}
+
+#ff{
+    font-style: italic;
+    font-weight: 400;
+}
+
+/***** MAIN *****/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__title{
+    font-size: 1.5em;
+    font-weight: bold;
+    /* margin-left: -30px; */
+}
+
+.form{
+    margin-top: 50px;
+    display: flex;
+}
+
+legend{
+    font-size: 1.1em;
+    color: rgb(77, 76, 76);
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.form-row{
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group > div{
+    margin-bottom: 10px;
+}
+
+
+.form__left{
+    padding-right: 10vw;
+}
+
+label{
+    font-size: 0.8em;
+}
+
+/***** PARTIE  FORMULAIRE DROITE *****/
+
+input[type="text"] {
+    border: none;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #999999;
+    height: 2em;
+}
+
+label{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+/***** MONTANT *****/
+
+.total__amount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 1px #999999;
+    border-radius: 5px;
+    padding: 35px 20px;
+    margin: 15px 0;
+}
+
+.amount{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.price{
+    color: #c80000;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+/***** BOUTONS *****/
+
+.button{
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    padding: 13px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+}
+
+.payment{
+    color: white;
+    background-color: #c80000;
+}
+
+footer{
+    background-color: #666;
+    color: white;
+    padding: 1%;
+    margin-top: 15px;
+    margin-bottom: 200vh;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+#promo{
+    color: #f7f7f7;
+    background-color: #c80000;
+    position:absolute;
+    top: 50%;
+    position: fixed;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-transform: uppercase;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 8px 8px 8px 3px;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+button:hover{
+    cursor: pointer;
+}

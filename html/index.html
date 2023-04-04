@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>oFig <span id="figurines">Figurines et statuettes</span></h1>
+        <h2>Votre panier <span id="ff">2 produits</span></h2>
+    </header>
+
+    <div class="container">
+        <main class="main">
+            <h2 class="main__title">
+                Préférences de livraison
+            </h2>
+            
+            <div class="form">
+                <div class="form__left">
+                    <form action="">
+                        <fieldset>
+                            
+                            <div class="form-row">
+                                <legend>Où souhaitez-vous être livré ?</legend>
+                                <div class="input-group">
+                                  <div>
+                                    <input type="radio" id="MyAdress" name="civilite" value="2" checked>
+                                    <label for="MyAdress">Mon adresse courante</label>
+                                  </div>
+                                  
+                                  <div>
+                                    <input type="radio" id="OtherAdress" name="civilite" value="1">
+                                    <label for="OtherAdress">Autre adresse</label>
+                                  </div>
+                                </div>
+                            </div>
+        
+                            <div class="form-row">
+                                <legend>Options</legend>
+                                <div class="input-group">
+                                    <div>
+                                        <input type="checkbox" id="options1" name="options" value="3" checked>
+                                        <label for="options1">Suivi de livraison par sms (inclus)</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="options2" name="options" value="2" checked>
+                                        <label for="options2">Satisfait ou remboursé (+2 euros)</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="options3" name="options" value="1" checked>
+                                        <label for="options3">Garantie 2ans (+10 euros)</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="form__right">
+                    <form action="">
+                        <fieldset>
+                            <div class="form-row">
+                                <legend>Adresse</legend>
+                                <label for="Adress">Rue</label>
+                                <input type="text" name="Adresse" id="Adress" required>
+    
+                                <label for="postcode">Code Postal</label>
+                                <input type="text" name="postcode" id="postcode">
+    
+                                <label for="city">Ville</label>
+                                <input type="text" name="city" id="city">  
+                            </div>
+    
+                            <div class="form-row">
+                                <legend>Informations complémentaires</legend>  
+                                <label for="infos__supp">interphone, bâtiment, etc.</label>
+                                <textarea type="text" name="adds" id="infos__supp"></textarea>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+
+            <hr>
+            
+            <section class="total__amount">
+                <p class="amount">Montant total à régler :</p>
+                <p class="price">197 €</p>
+            </section>
+            
+            <form action="">
+                <fieldset class="button">
+                    <button class="continue">Continuer vos achats</button>
+                    <button class="payment">Valider et payer</button>
+                </fieldset>
+            </form>
+
+        </main>
+    </div>
+
+    <footer>
+        oFig - toutes les images sont sous copyright SquareEnix
+    </footer>
+
+    <section class="soldes">
+        <a href="#"><span id="promo">Soldes</span></a>
+    </section>
+    
+</body>
+</html>
